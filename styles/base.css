@@ -1,0 +1,13 @@
+:root{
+    --accent-background-color: mediumblue;
+    --content-background-color: #252525;
+    --page-background-color: #303030;
+    --background-highligh-color: #353535;
+    --heading-font:  "Bebas Neue", Impact, sans-serif;
+	--body-font: "Open Sans", Verdana, sans-serif;
+    --monospaced-font: "Monaco", Monospace;
+}
+
+nav li a:hover {
+    color: green;
+}
