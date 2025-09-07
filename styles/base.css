@@ -33,9 +33,10 @@ a {
     text-decoration: none;
 }
 
+
 nav {
-    display: flex;
-    justify-content: space-around;
+    display: block;
+    justify-items: center;
 }
 
 * {
@@ -64,14 +65,22 @@ h1 {
 
 .show li {
 	display: block;
+    margin-left: 10px;
 }
 
 #menu.show::before {
 	content: "X";
+    margin-left: -115px;
 }
 
 #menu::before {
 	content: "≡";
+}
+
+#menu {
+	display: block;
+    width: 100%;
+    text-align: center;
 }
 
 main section{
@@ -109,6 +118,10 @@ footer * {
 	h1 {
 		font-size: 2rem;
 	}
+    nav {
+        display: flex;
+        justify-content: space-around;
+    }
 	.navigation {
 		display: flex;
 	}
