@@ -110,3 +110,38 @@ const courses = [
     }
 ]
 
+const photosSection = document.querySelector(".courses");
+
+temples.forEach((temple) => {
+    const figure = document.createElement("figure");
+	
+//     const img = document.createElement("img");
+//     img.src = temple.imageUrl;
+// 	img.alt = `${temple.templeName} Temple`;
+// 	img.loading = `lazy`
+	
+//     const caption = document.createElement("figcaption");
+//     caption.innerHTML = `
+//         <h3>${temple.templeName}</h3>
+//         <p>Location: ${temple.location}</p>
+//         <p>Dedicated: ${temple.dedicated}</p>
+//         <p>Area: ${temple.area.toLocaleString()} sq ft</p>
+// 	`;
+	
+//     figure.appendChild(caption);
+//     figure.appendChild(img);
+//     photosSection.appendChild(figure);
+});
+
+// const cssSafeClass = temple.templeName
+// 	.toLowerCase()
+// 	.replace(/[.]/g, '')
+// 	.replace(/[ú]/g, 'u')
+// 	.replace(/[^a-z0-9]/g, '-')
+// 	.replace(/-+/g, '-');
+
+// figure.classList.add(cssSafeClass);
+
+// function getDedicationYear(dedicatedStr) {
+// 	return Number(dedicatedStr.split(",")[0].trim());
+// }
