@@ -113,7 +113,7 @@ const courses = [
 const photosSection = document.querySelector(".courses");
 
 temples.forEach((temple) => {
-    const figure = document.createElement("figure");
+    const section = document.createElement("section");
 	
 //     const img = document.createElement("img");
 //     img.src = temple.imageUrl;
